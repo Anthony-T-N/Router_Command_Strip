@@ -9,6 +9,9 @@ __date__ = '06.09.2019'
 import os
 
 def line_strip():
+	"""
+
+	"""
 
 def main():
 	"""
