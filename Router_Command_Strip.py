@@ -16,6 +16,7 @@ def line_strip(input_file, output_file):
 	for current_line in input_file:
 		if ('#' in current_line):
 			current_line = current_line.split('#', 1)[-1]
+			current_line = current_line.lstrip(' ')
 		print(current_line)
 
 def main():
