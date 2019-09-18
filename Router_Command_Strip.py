@@ -18,6 +18,7 @@ def line_strip(input_file, output_file):
 			current_line = current_line.split('#', 1)[-1]
 			current_line = current_line.lstrip(' ')
 		print(current_line)
+		output_file.write(current_line)
 
 def main():
 	"""
