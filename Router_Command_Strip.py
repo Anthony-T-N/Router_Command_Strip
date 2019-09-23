@@ -1,6 +1,7 @@
 """ Router_Command_Strip
 
-A python script that takes a text file
+A python script that takes a text file containing a list of commands for routers. The script then strips away unnecessary
+parts that prevent the router from accepting the command.
 
 """
 
