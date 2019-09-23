@@ -1,5 +1,7 @@
 """ Router_Command_Strip
 
+A python script that takes a text file
+
 """
 
 __author__ = 'Anthony T Nguyen'
