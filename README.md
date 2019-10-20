@@ -7,3 +7,6 @@
 # Router_Command_Strip
 A python script that takes a text file containing a list of commands used to configure routers. The script then strips away unnecessary
 parts that prevent the router from accepting the command.
+
+Usage
+-
