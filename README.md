@@ -10,7 +10,8 @@ parts that prevent the router from accepting the command.
 
 Usage
 -
-router.txt file content
+**router.txt file content**
+```text
 R2(config)# ipv6 unicast-routing
 R2(config)# ipv6 router eigrp 1
 R2(config-rtr)# eigrp router-id 2.2.2.2
@@ -24,3 +25,4 @@ R2(config)#
 R2(config)# interface s0/1/0
 R2(config-if)# ipv6 eigrp 1    
 R2(config-if)# exit
+```
