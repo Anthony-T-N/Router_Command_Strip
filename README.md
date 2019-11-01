@@ -26,3 +26,19 @@ R2(config)# interface s0/1/0
 R2(config-if)# ipv6 eigrp 1    
 R2(config-if)# exit
 ```
+```text
+new_router.txt file content
+ipv6 unicast-routing
+ipv6 router eigrp 1
+eigrp router-id 2.2.2.2
+no shutdown
+exit
+
+interface lo 0
+ipv6 eigrp 1                   
+exit
+
+interface s0/1/0
+ipv6 eigrp 1    
+exit
+```
