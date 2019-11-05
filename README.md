@@ -10,6 +10,8 @@ parts that prevent the router from accepting the command.
 
 Usage
 -
+Two text files are generated named as "router.txt" and new_router.txt as the script is executed.
+
 **router.txt file content**
 ```text
 R2(config)# ipv6 unicast-routing
