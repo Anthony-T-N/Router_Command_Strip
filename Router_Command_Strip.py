@@ -12,9 +12,9 @@ __date__ = '06.09.2019'
 import os
 
 def line_strip(input_file, output_file):
-	"""
+"""
 
-	"""
+"""
 	line = 0
 	for current_line in input_file:
 		if ('#' in current_line):
@@ -26,9 +26,9 @@ def line_strip(input_file, output_file):
 	print(line)
 
 def main():
-	"""
-	Begin
-	"""
+"""
+Begin
+"""
 	if os.path.exists("router.txt"):
 		input_file = open("router.txt", "r")
 		output_file = open("new_router.txt", 'w')
