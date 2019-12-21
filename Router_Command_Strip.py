@@ -34,7 +34,7 @@ def main():
 		output_file = open("new_router.txt", 'w')
 		line_strip(input_file, output_file)
 	else:
-		print("File not there")
+		print("[-] File not found")
 		input_file = open("router.txt", "w")
 	input_file.close()
 	
