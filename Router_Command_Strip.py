@@ -13,7 +13,7 @@ import os
 
 def line_strip(input_file, output_file):
 	"""
-
+	Takes the existing text files as inputs.
 	"""
 	line = 0
 	for current_line in input_file:
