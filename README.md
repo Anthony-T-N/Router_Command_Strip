@@ -5,6 +5,8 @@
 [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/Anthony-T-N/Router_Command_Strip)
 
 # Router_Command_Strip
+Overview
+-
 A python script that takes a text file containing a list of commands used to configure routers and switches (Have only tested on Cisco devices). The script then strips away all text leading up to the hash symbol commonly found in configuration manuals and guides that prevent the networking device from accepting these command. These "clean" command statements then can be copied into a terminal or CLI for usage.
 
 Usage
